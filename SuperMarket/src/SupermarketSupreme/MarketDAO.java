@@ -30,7 +30,7 @@ class MarketDAO {
 	{
 		try {
 			 Class.forName("com.mysql.cj.jdbc.Driver");
-			 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcdb","root","Aslam@2002");	
+			 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcdb","root","");	
 			}
 		catch (Exception e) {
 			System.out.println(e);
